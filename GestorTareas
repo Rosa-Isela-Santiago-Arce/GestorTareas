@@ -1,0 +1,30 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class GestionTareas {
+    static class Tarea {
+        String descripcion;
+        boolean completada;
+
+        public Tarea(String descripcion) {
+            this.descripcion = descripcion;
+            this.completada = false;
+        }
+
+        public void marcarCompletada() {
+            this.completada = true;
+        }
+
+        @Override
+        public String toString() {
+            return (completada ? "[✔] " : "[ ] ") + descripcion;
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner
+
+
+
+
+
